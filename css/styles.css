@@ -691,7 +691,7 @@ body {
   line-height: 1.88;
 }
 
-/*--------------------МОДАЛЬНЕ ВІКНО--------------------  */
+/*--------------------БЕКДРОП--------------------  */
 .backdrop {
   position: fixed;
   top: 0;
@@ -715,6 +715,7 @@ body {
   transform: translate(-50%, -50%) scale(1.1);
 }
 
+/*--------------------МОДАЛЬНЕ ВІКНО--------------------  */
 .modal {
   position: absolute;
   top: 50%;
@@ -731,6 +732,16 @@ body {
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--time-duration) var(--time-function);
+}
+
+.modal-appeal {
+  display: block;
+  text-align: center;
+  margin: 40px 40px 12px 40px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
 }
 
 .close-btn {
@@ -756,4 +767,25 @@ body {
 .close-btn:hover,
 .close-btn:focus {
   fill: var(--accent-color);
+}
+
+.form {
+  width: 448px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  outline: 1px solid blue;
+}
+
+.form-field input {
+  margin: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
