@@ -828,7 +828,7 @@ body {
   flex-direction: column-reverse;
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -847,6 +847,8 @@ body {
 
 .form-label {
   margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
 }
 
 .modal-icon {
