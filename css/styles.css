@@ -486,6 +486,7 @@ body {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -529,9 +530,12 @@ body {
 }
 
 .socials-appeal {
+  margin: 0 0 20px 0;
+
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
+
   color: var(--primary-white-color);
 }
 
